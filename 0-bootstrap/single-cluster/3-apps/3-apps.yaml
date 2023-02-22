@@ -56,8 +56,6 @@ spec:
   project: applications
   source: # repoURL  and targetRevision populated by kustomize patches in 3-apps/kustomization.yaml
     path: 0-bootstrap/single-cluster/3-apps
-    repoURL: https://github.com/ibm-gitiops/multi-tenancy-gitops.git
-    targetRevision: master
   syncPolicy:
     automated:
       prune: true
