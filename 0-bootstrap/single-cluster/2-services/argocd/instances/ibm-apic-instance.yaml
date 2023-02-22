@@ -20,7 +20,7 @@ spec:
     server: https://kubernetes.default.svc
   project: services
   source:
-    path: 0-bootstrap/single-cluster/2-service/argocd/instances/sinstances/ibm-apic-instance
+    path: 0-bootstrap/single-cluster/2-service/argocd/instances/ibm-apic-instance
     repoURL: https://github.com/ibm-gitiops/multi-tenancy-gitops.git
     targetRevision: master
     helm:
